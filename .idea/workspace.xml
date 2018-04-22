@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a69b041-1c4b-4b99-92dc-157d01239c06" name="Default" comment="test" />
+    <list default="true" id="9a69b041-1c4b-4b99-92dc-157d01239c06" name="Default" comment="自定义排序测试">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day01/test$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day01/test$.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,7 +15,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="InferringSchema.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/day11/InferringSchema.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+              <folding>
+                <element signature="e#15#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,6 +46,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/day01/test.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/day06/SparkWC.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/day07/SparkRDDTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day10/CustomSort.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/day11/InferringSchema.scala" />
       </list>
     </option>
   </component>
@@ -88,6 +106,34 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="day06" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="scalatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalatest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="day07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalatest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="day10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalatest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="day11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -95,8 +141,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="G:/tools/spark-2.3.0-bin-hadoop2.7/spark-2.3.0-bin-hadoop2.7/jars" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="G:/tools/hadoop/hadoop-2.7.5/hadoop-2.7.5/share/hadoop/hdfs/hadoop-hdfs-2.7.5.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -112,7 +158,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkRDDTest">
+  <component name="RunManager" selected="Application.InferringSchma">
+    <configuration name="CustomSort" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="day10.CustomSort" />
+      <module name="scala" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="InferringSchma" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="day11.InferringSchema" />
+      <module name="scala" />
+      <option name="PROGRAM_PARAMETERS" value="hdfs://ns1/person.txt hdfs://ns1/output" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
     <configuration name="SparkRDDTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="day07.SparkRDDTest" />
       <module name="scala" />
@@ -177,11 +240,14 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Application.InferringSchma" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.SparkRDDTest" />
+      <item itemvalue="Application.CustomSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomSort" />
         <item itemvalue="Application.SparkRDDTest" />
         <item itemvalue="Application.test" />
       </list>
@@ -205,7 +271,21 @@
       <option name="project" value="LOCAL" />
       <updated>1523973744238</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="自定义排序测试">
+      <created>1524146681996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524146681996</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dataframe测试">
+      <created>1524411690812</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524411690812</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -213,11 +293,12 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32913387" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32913387" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32913387" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51496065" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10866142" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2284041" />
@@ -232,7 +313,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32913387" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -240,7 +320,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="自定义排序测试" />
+    <MESSAGE value="dataframe测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="dataframe测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -288,15 +370,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/day01/test.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
+        <state relative-caret-position="200">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/math/Ordering.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1924">
+          <caret line="105" column="48" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day10/CustomSort.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/day06/SparkWC.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="56">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="49" />
           <folding>
             <element signature="e#14#45#0" expanded="true" />
           </folding>
@@ -305,8 +411,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/day07/SparkRDDTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="525">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/tools/spark-2.3.0-bin-hadoop2.7/spark-2.3.0-bin-hadoop2.7/jars/spark-sql_2.11-2.3.0.jar!/org/apache/spark/sql/DatasetHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/tools/spark-2.3.0-bin-hadoop2.7/spark-2.3.0-bin-hadoop2.7/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/SparkContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day11/InferringSchema.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="e#15#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
