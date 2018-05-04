@@ -12,15 +12,15 @@ object StreamingWC {
     sc.hadoopConfiguration.set("fs.defaultFS", "hdfs://ns1");
     sc.hadoopConfiguration.set("dfs.nameservices", "ns1");
     sc.hadoopConfiguration.set("dfs.ha.namenodes.ns1", "nn1,nn2");
-    sc.hadoopConfiguration.set("dfs.namenode.rpc-address.ns1.nn1", "itcast03:9000");
-    sc.hadoopConfiguration.set("dfs.namenode.rpc-address.ns1.nn2", "itcast04:9000");
+    sc.hadoopConfiguration.set("dfs.namenode.rpc-address.ns1.nn1", "itcast02:9000");
+    sc.hadoopConfiguration.set("dfs.namenode.rpc-address.ns1.nn2", "itcast03:9000");
     sc.hadoopConfiguration.set("dfs.client.failover.proxy.provider.ns1", "org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider");
 
     val ssc = new StreamingContext(sc,Seconds(5))
 
-    ssc.checkpoint("hdfs://ns1/ck-20180423")
+    ssc.checkpoint("hdfs://ns1/ck-20180424")
 
-    val dstream = ssc.socketTextStream("itcast03",8888)
+    val dstream = ssc.socketTextStream("192.168.112.133",8888)
 
     val tuples = dstream.flatMap(_.split(" ")).map((_,1))
 
