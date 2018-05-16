@@ -1,5 +1,6 @@
 package day07
 
+import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
 object SparkRDDTest {
@@ -14,7 +15,7 @@ object SparkRDDTest {
 
     //val res = rdd2.flatMap(_.split(" "))
     //println(res.collect().toBuffer)
-    val rdd3 = sc.parallelize(List(List("a b c","v n e"),List("a b c","v n e"),List("a b c","v n e")))
+    var rdd3 = sc.parallelize(List(List("a b c", "v n e"), List("a b c", "v n e"), List("a b c", "v n e")))
 
     val res1 = rdd3.flatMap(_.flatMap(_.split(" ")))
     println(res1.collect.toBuffer)

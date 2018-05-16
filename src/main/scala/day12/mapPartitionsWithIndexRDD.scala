@@ -24,7 +24,7 @@ object mapPartitionsWithIndexRDD {
 
     val res = mapPartitionsWithIndexRDD.collect()
 
-    //res.foreach { println }
+    res.foreach { println }
 
     sc.stop()
 
