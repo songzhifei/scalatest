@@ -18,7 +18,8 @@ object SparkWC {
 
     var res: RDD[(String, Int)] = reduced.sortBy(_._2, false)
 
-    println(res.collect().toBuffer)
+    res.collect().foreach{println}
+    //println(res.collect().toBuffer)
 
     sc.stop()
   }

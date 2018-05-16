@@ -9,12 +9,18 @@ object test {
     val sc: SparkContext = new SparkContext(conf)
 
     val words = sc.parallelize(List("a b c","d e f","m n j"))
-
+/*
     val length = words.map(s=>s.length)
     //    println(length.collect().toBuffer)
     val i: Int = length.reduce((a, b)=>a+b)
     println(i)
-    //val res1 = words.flatMap(_.split(" "))
+ */
+
+    val unitRDD = words.flatMap(_.split(" "))
+
+    val mapRDD = unitRDD.map(a=>(a,1))
+
+    val res = mapRDD.reduceByKey((a,b)=>a+b).collect().foreach{println}
 
     //println(res1.collect().toBuffer)
   }
