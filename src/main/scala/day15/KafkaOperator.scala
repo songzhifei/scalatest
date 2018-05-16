@@ -2,14 +2,19 @@ package day15
 
 import java.util.{Collections, Properties}
 
-import org.apache.kafka.clients.consumer.{Consumer, ConsumerConfig, ConsumerRecords, KafkaConsumer}
+//import org.apache.kafka.clients.consumer.{Consumer, ConsumerConfig, ConsumerRecords, KafkaConsumer}
 
 import scala.xml.Properties
 
 object KafkaOperator {
   def main(args: Array[String]): Unit = {
-
-    val props = new Properties()
+    /*
+    *        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+            val props = new Properties()
 
     props.put("bootstrap.servers", "itcast02:9092,itcast03:9092")
     props.put("group.id", "CountryCounter")
@@ -34,6 +39,8 @@ object KafkaOperator {
           }
         }
     finally consumer.close() //4
+
+     */
     /**
       * val topicCountMap = Map(topic -> 1)
       * val consumerMap = consumer.createMessageStreams(topicCountMap)
