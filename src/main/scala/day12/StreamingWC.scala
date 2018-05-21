@@ -23,7 +23,9 @@ object StreamingWC {
     val dstream = ssc.socketTextStream("192.168.112.133",8888)
 
     val tuples = dstream.flatMap(_.split(" ")).map((_,1))
-
+    //直接reducebykey 无状态，不记录上次输入的内容
+    //val value = tuples.reduceByKey(_+_)
+    //updateStateByKey有状态，记录上传输入的内容
     var res: DStream[(String, Int)] = tuples.updateStateByKey(func, new HashPartitioner(ssc.sparkContext.defaultMinPartitions), false)
 
     res.print()
