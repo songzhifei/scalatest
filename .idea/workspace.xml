@@ -7,15 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a69b041-1c4b-4b99-92dc-157d01239c06" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day04/JDBCDataSouce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day04/StreamingOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day04/UDFOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/day18/JDBCDataSource.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/day18/StringCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/day18/UDFOperator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day05/MyUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/day12/StreamingWC.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/day12/StreamingWC.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/day18/UDFOperator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/day18/UDFOperator.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,97 +22,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KafkaOperator.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/day15/KafkaOperator.scala">
+      <file leaf-file-name="UDFOperator.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/day18/UDFOperator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DstremKafkaOperator.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/day12/DstremKafkaOperator.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JDBCDataSource.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/day18/JDBCDataSource.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="650">
+              <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
               <folding>
-                <element signature="e#15#42#0" expanded="true" />
+                <element signature="e#15#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataFrameWriter.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/spark-sql_2.11-2.3.0-sources.jar!/org/apache/spark/sql/DataFrameWriter.scala">
+      <file leaf-file-name="StringCount.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/day18/StringCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="76" column="38" lean-forward="true" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamingWC.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/day12/StreamingWC.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="344">
+              <caret line="25" column="69" lean-forward="true" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
               <folding>
-                <element signature="e#15#64#0" expanded="true" />
+                <element signature="e#16#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PairDStreamFunctions.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/spark-streaming_2.11-2.3.0-sources.jar!/org/apache/spark/streaming/dstream/PairDStreamFunctions.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="453" column="97" lean-forward="true" selection-start-line="453" selection-start-column="97" selection-end-line="453" selection-end-column="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamingOperator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day04/StreamingOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1218#1219#0" expanded="true" />
-                <element signature="e#1424#1629#0" expanded="true" />
-                <element signature="e#1628#1629#0" expanded="true" />
-                <element signature="e#1806#1981#0" expanded="true" />
-                <element signature="e#1980#1981#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PairFunction.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/api/java/function/PairFunction.java">
+      <file leaf-file-name="MyUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/day05/MyUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#OutLog2NC#0;class#MyUtil#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaDStreamLike.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ideaLibSources/spark-streaming_2.11-2.3.0-sources.jar!/org/apache/spark/streaming/api/java/JavaDStreamLike.scala">
+      <file leaf-file-name="DataFrameOperator.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/day17/DataFrameOperator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="160" column="6" selection-start-line="160" selection-start-column="6" selection-end-line="160" selection-end-column="6" />
+            <state relative-caret-position="575">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -173,10 +118,11 @@
         <option value="$PROJECT_DIR$/src/main/java/day04/JDBCDataSouce.java" />
         <option value="$PROJECT_DIR$/src/main/scala/day18/JDBCDataSource.scala" />
         <option value="$PROJECT_DIR$/src/main/java/day04/UDFOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/day18/UDFOperator.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/day18/StringCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/day12/StreamingWC.scala" />
         <option value="$PROJECT_DIR$/src/main/java/day04/StreamingOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/day18/UDFOperator.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/day05/MyUtil.java" />
       </list>
     </option>
   </component>
@@ -192,8 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,20 +168,15 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="day18" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="day05" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -487,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526433023348</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="sparkstreaming&#10;UDF,UDAF,&#10;Mysql connector">
+      <created>1526891625984</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1526891625984</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -496,10 +442,8 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.3284055" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50104165" side_tool="true" weight="0.1626188" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" side_tool="true" weight="0.3296875" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.19112988" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895832" weight="0.20591341" />
@@ -515,6 +459,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.3284055" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="4" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -536,7 +482,8 @@
     <MESSAGE value="words.txt" />
     <MESSAGE value="practice" />
     <MESSAGE value="kafka Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="kafka Test" />
+    <MESSAGE value="sparkstreaming&#10;UDF,UDAF,&#10;Mysql connector" />
+    <option name="LAST_COMMIT_MESSAGE" value="sparkstreaming&#10;UDF,UDAF,&#10;Mysql connector" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -547,29 +494,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0-sources.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.java" />
-    <entry file="jar://$USER_HOME$/.ideaLibSources/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/api/java/JavaSparkContext.scala" />
-    <entry file="jar://$USER_HOME$/.ideaLibSources/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/api/java/JavaRDDLike.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day11/InferringSchema.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="33" selection-start-line="7" selection-end-line="33" />
-          <folding>
-            <element signature="e#15#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day11/SpecifyingSchema.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="17" selection-start-line="10" selection-end-line="17" />
-          <folding>
-            <element signature="e#15#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/day10/CustomSort.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -631,13 +555,7 @@
     </entry>
     <entry file="jar://D:/spark/spark-2.3.0-bin-hadoop2.7/spark-2.3.0-bin-hadoop2.7/jars/spark-streaming_2.11-2.3.0.jar!/org/apache/spark/streaming/StreamingContext.class" />
     <entry file="jar://$USER_HOME$/.ideaLibSources/spark-streaming_2.11-2.3.0-sources.jar!/org/apache/spark/streaming/StreamingContext.scala" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="214" column="33" lean-forward="true" selection-start-line="214" selection-start-column="33" selection-end-line="214" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml.bak" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4700">
@@ -695,9 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="25" column="24" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -733,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,16 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="39" column="108" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day17/DataFrameOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -767,26 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="77" column="63" lean-forward="true" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day18/StringCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-          <folding>
-            <element signature="e#16#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/day18/UDFOperator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding>
-            <element signature="e#15#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -814,60 +696,49 @@
     <entry file="jar://$USER_HOME$/.ideaLibSources/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/api/java/function/PairFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/spark-streaming_2.11-2.3.0-sources.jar!/org/apache/spark/streaming/api/java/JavaDStreamLike.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="3275">
           <caret line="160" column="6" selection-start-line="160" selection-start-column="6" selection-end-line="160" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/spark-streaming_2.11-2.3.0-sources.jar!/org/apache/spark/streaming/dstream/PairDStreamFunctions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="453" column="97" lean-forward="true" selection-start-line="453" selection-start-column="97" selection-end-line="453" selection-end-column="97" />
+        <state relative-caret-position="10650">
+          <caret line="453" column="97" selection-start-line="453" selection-start-column="97" selection-end-line="453" selection-end-column="97" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/day04/StreamingOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1424#1629#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-            <element signature="e#1806#1981#0" expanded="true" />
-            <element signature="e#1980#1981#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="600">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/day12/StreamingWC.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="325">
           <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="e#15#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/day15/KafkaOperator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="675">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/day12/DstremKafkaOperator.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -880,17 +751,80 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/spark-sql_2.11-2.3.0-sources.jar!/org/apache/spark/sql/DataFrameWriter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="76" column="38" lean-forward="true" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
+        <state relative-caret-position="1100">
+          <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/day18/JDBCDataSource.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="244">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day18/UDFOperator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
           <folding>
-            <element signature="e#15#42#0" expanded="true" />
+            <element signature="e#15#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day17/DataFrameOperator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/spark/spark-2.3.0-bin-hadoop2.7/spark-2.3.0-bin-hadoop2.7/jars/spark-catalyst_2.11-2.3.0.jar!/org/apache/spark/sql/types/StructField.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spark-catalyst_2.11-2.3.0-sources.jar!/org/apache/spark/sql/types/StructField.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spark-sql_2.11-2.3.0-sources.jar!/org/apache/spark/sql/expressions/udaf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="162" column="15" selection-start-line="162" selection-start-column="15" selection-end-line="162" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spark-catalyst_2.11-2.3.0-sources.jar!/org/apache/spark/sql/Row.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="321" column="25" selection-start-line="321" selection-start-column="24" selection-end-line="321" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/day18/StringCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="25" column="69" lean-forward="true" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+          <folding>
+            <element signature="e#16#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day05/MyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#OutLog2NC#0;class#MyUtil#0" />
           </folding>
         </state>
       </provider>

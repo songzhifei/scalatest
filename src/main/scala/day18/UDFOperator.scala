@@ -20,10 +20,10 @@ object UDFOperator {
         "password"->"root")).load()
 
     jdbcDF.createTempView("actor")
-    //udf
+    //udf user defined function自定义聚合函数
     session.udf.register("strLen",(str:String)=>str.length())
     //session.sql("select first_name,strLen(first_name) from actor where actor_id<20").show()
-    //udaf
+    //udaf  user defined Aggregate function自定义聚合函数
     session.udf.register("strCount",new StringCount)
     session.sql("select first_name,strCount(first_name) from actor group by first_name").show()
 
